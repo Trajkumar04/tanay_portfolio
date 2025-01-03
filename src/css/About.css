@@ -1,0 +1,64 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  h1.text-center {
+    font-size: 3rem;
+    color: #ffffff !important; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+
+  h2.mt-4 {
+    font-size: 2rem;
+    color: #ffffff !important; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+
+  .custom-list-group {
+    background-color: transparent; /* Makes the list-group background transparent */
+    border: none; /* Removes the border around the list group */
+  }
+  
+  .custom-list-item {
+    background-color: transparent; /* Makes individual list items transparent */
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes borders from the list items */
+  }
+  
