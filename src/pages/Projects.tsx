@@ -1,5 +1,10 @@
 import React from 'react';
 import '../css/Projects.css';
+import HandSigniaImg from '../assets/HandSignia.jpg';
+import SpotifyWrapperImg from '../assets/SpotifyWrapper.png';
+import Pen2PanelImg from '../assets/pen2panel.jpg';
+import CollegeSchedulerImg from '../assets/CollegeScheduler.png';
+
 
 const past_projects = [
     {
@@ -10,7 +15,7 @@ const past_projects = [
       description: `
         Trained an AI-model to recognize human hand gestures, resulting in a model with an F1-score of 73%. 
         Created an application that would display various visual effects on the user’s screen based on what hand gesture they were performing. `,
-      image: 'src/assets/HandSignia.jpg',
+      image: HandSigniaImg,
     },
     {
       name: 'Spotify Wrapper',
@@ -21,7 +26,7 @@ const past_projects = [
         Utilized Android Studio and Spotify API to develop a Spotify Wrapped app, allowing all users to view statistics such as favorite artist and most listened to tracks based on a month, 6 months, or a year.
         Lead the development of the applications backend, populating the application with data obtained from the Spotify API. 
         Created a website to showcase the application as well as the groups understanding of the agile design process. `,
-      image: 'src/assets/SpotifyWrapper.png',
+      image: SpotifyWrapperImg,
     },
     {
       name: 'Pen 2 Panel',
@@ -32,7 +37,7 @@ const past_projects = [
         Won Auth0 sponsorship challenge at UGAHacks 9 by successfully integrating Auth0 authentication into the application.
         Applied analytical thinking to develop an application enabling users to convert their own stick drawings into a 10-panel superhero comic.
         Created a website to showcase the application as well as the groups understanding of the agile design process. `,
-      image: 'src/assets/pen2panel.jpg',
+      image: Pen2PanelImg,
     },
     {
       name: 'College Scheduler',
@@ -42,7 +47,7 @@ const past_projects = [
       description: `
         Utilized Android Studio to develop an academic schedule management app, showcasing analytical skills in designing and implementing features such as class schedules, assignment details, exam details, and task management.
         Created a website to demonstrate app functionality and a modern Android Studio Hedgehog tutorial. `,
-      image: 'src/assets/CollegeScheduler.png',
+      image: CollegeSchedulerImg,
     },
   ];
 
