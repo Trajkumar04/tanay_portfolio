@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 const App: React.FC = () => {
  return (
-   <Router>
+   <Router basename="/tanay_portfolio">
      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
        <div className="container-fluid">
          <Link className="navbar-brand" to="/">
