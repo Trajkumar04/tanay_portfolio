@@ -12,9 +12,9 @@ import Contact from './pages/Contact';
 const App: React.FC = () => {
  return (
    <Router>
-     <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ backgroundColor: 'transparent' }}>
+     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
        <div className="container-fluid">
-         <Link className="navbar-brand text-white" to="/">
+         <Link className="navbar-brand" to="/">
            Tanay Rajkumar
          </Link>
          <button
@@ -31,22 +31,22 @@ const App: React.FC = () => {
          <div className="collapse navbar-collapse" id="navbarNav">
            <ul className="navbar-nav ms-auto">
              <li className="nav-item">
-               <Link className="nav-link text-white" to="/">
+               <Link className="nav-link" to="/">
                  Home
                </Link>
              </li>
              <li className="nav-item">
-               <Link className="nav-link text-white" to="/about">
+               <Link className="nav-link" to="/about">
                  About Me
                </Link>
              </li>
              <li className="nav-item">
-               <Link className="nav-link text-white" to="/projects">
+               <Link className="nav-link" to="/projects">
                  Projects
                </Link>
              </li>
              <li className="nav-item">
-               <Link className="nav-link text-white" to="/contact">
+               <Link className="nav-link" to="/contact">
                  Contact
                </Link>
              </li>
@@ -54,6 +54,7 @@ const App: React.FC = () => {
          </div>
        </div>
      </nav>
+
 
      <Routes>
        <Route path="/" element={<Home />} />
@@ -64,5 +65,6 @@ const App: React.FC = () => {
    </Router>
  );
 };
+
 
 export default App;
