@@ -3,6 +3,7 @@ import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import '../css/About.css';
+import ProfilePic from '../assets/profile.jpg';
 
 const languages = [
   'Java, and Python',
@@ -46,7 +47,7 @@ const About: React.FC = () => {
       <Row className="align-items-center">
         <h1 className="text-center">About Me</h1>
         <Col md={6}>
-          <Image src="src/assets/profile.jpg" fluid className="profile-pic" />
+          <Image src={ProfilePic} fluid className="profile-pic" />
         </Col>
         <Col md={6} className="text-container">
           <p style={{ color: 'white' }}>
