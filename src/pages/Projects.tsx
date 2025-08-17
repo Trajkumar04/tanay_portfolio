@@ -4,9 +4,21 @@ import HandSigniaImg from '../assets/HandSignia.jpg';
 import SpotifyWrapperImg from '../assets/SpotifyWrapper.png';
 import Pen2PanelImg from '../assets/pen2panel.jpg';
 import CollegeSchedulerImg from '../assets/CollegeScheduler.png';
+import ARchitectImg from '../assets/ARchitect.png';
 
 
 const past_projects = [
+    {
+      name: 'ARchitect',
+      skills: 'RealityKit, Augmented Reality, Swift, Xcode',
+      duration: 'May 2025',
+      url: 'https://github.com/gtiosclub/ARchitect',
+      description: `
+        Developed an IOS application that utilizes AR to allow users to simulate how various pieces of furniture would look in their living spaces.
+        Implemented the AR features on the social media side of the application, allowing users to see how others furnished their rooms. 
+        Won Popular App award in GT-IOS club awards. `,
+      image: ARchitectImg,
+    },
     {
       name: 'HandSignia',
       skills: 'MediaPipe, Machine Learning, Computer Vision, Deep Learning',
