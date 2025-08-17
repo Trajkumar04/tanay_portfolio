@@ -27,9 +27,19 @@ const technologies = [
   'Data Structures and Algorithms',
   'Ghidra',
   'Node.js',
+  'Power Automate',
 ];
 
 const experiences = [
+  {
+    role: 'ISM Intern',
+    company: 'UPS Supply Chain Solutions',
+    duration: 'June 2025 - August 2025',
+    description: `
+      Was a member of the Highly-Automated Building (HAB) team, which focused on monitoring UPS’s entirely robot automated healthcare distribution center. 
+      Developed an automation script, improving the efficiency of healthcare orders by 75%, while ensuring order accuracy.
+      Reduced this process from 40+ minute process to a 7 minute process.`,
+  },
   {
     role: 'Intern',
     company: 'NCR Corporation',
@@ -51,13 +61,13 @@ const About: React.FC = () => {
         </Col>
         <Col md={6} className="text-container">
           <p style={{ color: 'white' }}>
-            My name is Tanay Rajkumar. I am a junior at the Georgia Institute of Technology majoring in Computer Science.
-            I have a passion for machine learning and cybersecurity, with a growing interest in computer vision.
+            My name is Tanay Rajkumar. I am a senior at the Georgia Institute of Technology majoring in Computer Science.
+            I have a passion for machine learning and cybersecurity, with a growing interest in robotics.
             I am fascinated with the ways that computers can perceive and understand the world around them.
-            I am currently seeking a summer internship in the field of machine learning, computer vision, or cybersecurity. <br />
+            I am currently seeking a internship/full-time job in the field of machine learning, robotics, or cybersecurity. <br />
             I am primarily a backend developer, with expertise in Java and Python. I have recently
             started learning frontend technologies such as React and Angular with the goal of becoming a full-stack developer.
-            I also have experience with mobile application development with Android Studio, and am actively learning Swift for iOS development. <br />
+            I also have experience with mobile application development with Android Studio and Xcode. <br />
             I am very adaptable and can quickly learn new technologies and programming languages. I am a quick thinker and can solve problems efficiently.
             I am a team player and have experience leading a team of developers to create a project, having done so for my Spotify Wrapper project. <br />
 
